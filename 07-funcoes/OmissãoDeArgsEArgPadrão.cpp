@@ -6,7 +6,7 @@ void imp(string txt = "");
 
 int main(){
 
-
+    imp();
     return 0;
 }
 
