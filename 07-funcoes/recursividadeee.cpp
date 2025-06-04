@@ -32,6 +32,8 @@ int main(){
 	
 	cout << fatorial(8) << " ";
 	
+	//entendendo a logixca de fatorial
+	
 	/*int i = 8;
 	while(i >= 1){
 		int x;
