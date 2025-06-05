@@ -2,32 +2,48 @@
 
 using namespace std;
 
-/*void contador(int num, int cont = 0){
-    cout << cont << "\n";
-    if (num > cont){
+void contador(int num, int cont = 0){
+    cout << cont << " ";
+    if(num > cont){
         contador(num, ++cont);
     }
-}*/
+}
 
-int fibonacci(int n) {
-  int x;
-  
-  if (n == 1) {
-    return 1;
-  }
-  
-  if (n == 2) {
-    return 1;
-  }
-  
-  x = fibonacci(n-1) + fibonacci(n-2);
-  return x;
+
+int fibonacci(int n){
+
+	if(n == 1 || n == 2){
+		return 1;
+	} else {
+		return fibonacci(n - 1) + fibonacci(n - 2);
+	}
+
+	
+}
+
+int fatorial(int n){
+
+    if(n == 0){
+		return 1; 
+    }
+
+	return n * fatorial(n-1); 
+	 
 }
 
 int main(){
-    for (int i = 0; i < 10; i ++){
-        cout << fibonacci(i) << " ";
-    }
+	
+	
+	int res = fatorial(8);
+
+	int res2 = fibonacci(8);
+
+	cout << res << " ";
+	cout << res2 << " ";
+
+	
+	
+
     return 0;
-}       
+}
 
