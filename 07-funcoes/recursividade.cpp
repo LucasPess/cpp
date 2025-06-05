@@ -41,8 +41,6 @@ int main(){
 	cout << res << " ";
 	cout << res2 << " ";
 
-	
-	
 
     return 0;
 }
