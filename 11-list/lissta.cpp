@@ -6,8 +6,14 @@ using namespace std;
 
  int main(){
 
-    list<int> aula;
+    list<int> aula,teste;
     list<int>::iterator it;
+
+    teste.push_front(9);
+    teste.push_front(9);
+    teste.push_front(9);
+    teste.push_front(9);
+    teste.push_front(9);
 
     int tam;
 
@@ -16,11 +22,14 @@ using namespace std;
         aula.push_front(i);
     }
 
-    /*
+    
     it = aula.begin();
     advance(it, 5);
-    aula.insert(it, 0);
-    */
+    aula.insert(it, 0); //insere elemento em um local especifico
+    aula.erase(--it); //retira elemento de um local especifico
+
+    //aula.clear(); //esvazia toda a lista de uma vez
+    aula.merge(teste);
 
     cout << "Tamanho da lista " << aula.size() << '\n';
 
@@ -32,6 +41,8 @@ using namespace std;
         cout << aula.front() << '\n'; 
         aula.pop_front();
     }
+
+    cout << "Tamanho da lista " << aula.size() << '\n';
 
 
     return 0;
