@@ -32,7 +32,7 @@ int main(){
     }
 
     while(!cartas.empty()){
-        cartas.pop();
+        cartas.pop(); // esvaziando pilha
     }
 
     cout << "Tamanho da pilha: " << cartas.size() << "\n";
