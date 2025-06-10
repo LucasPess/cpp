@@ -67,7 +67,7 @@ int main(){
     car1.mudavel(200);
     car1.exibir();
 
-    car1.nome = "Sandero";
+    car1.nome = "teste";
     car1.cor = "Vermelho";
     car1.pot = 150;
     car1.velMax = 200;
