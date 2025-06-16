@@ -14,6 +14,7 @@ int main(){
     *pv = "Moto"; // no endereco apontado por *pv adicione o valor "Moto"
 
     cout <<veiculo << '\n'<< *pv;
+
     
     return 0;
 }
