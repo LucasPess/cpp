@@ -48,6 +48,8 @@ int main(){
         num1.pop_back();
     }
 
+    num2.clear();
+
     cout << "Novo Tamanho do vetor: " << num1.size() << endl;
 
     return 0;
