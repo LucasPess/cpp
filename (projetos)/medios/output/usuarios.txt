@@ -1,0 +1,5 @@
+Nome: Lucas|Email: |Idade: 0|Id: 0
+Nome: Lucas|Email: teste@padrao.com|Idade: 19|Id: 1
+Nome: Lucas|Email: |Idade: 0|Id: 1
+Nome: Lucas|Email: |Idade: 0|Id: 1
+Nome: brgbre|Email: fghsdhsrt|Idade: 54|Id: 1
