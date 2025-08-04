@@ -31,7 +31,7 @@ int main(){
         cout << "Hora: " << setfill('0') << setw(2) << tempoLocal->tm_hour << ":" << setfill('0') << setw(2) << tempoLocal->tm_min << ":" << tempoLocal->tm_sec;
         
 
-       // this_thread::sleep_for(chrono::seconds(1)); // apenas implementar quando atualizar o compilador 
+       this_thread::sleep_for(chrono::seconds(1)); // apenas implementar quando atualizar o compilador 
 
     }
 
